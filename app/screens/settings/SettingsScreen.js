@@ -17,14 +17,6 @@ const styles = StyleSheet.create({
 
 const Settings = ({ navigation }) => (
   <View>
-    <Card wrapperStyle={appStyles.rowStyle}>
-      <SecondaryText>Made by</SecondaryText>
-      <Image
-        style={styles.logoStyle}
-        source={logo}
-      />
-      <SecondaryText>JSSolutions with love</SecondaryText>
-    </Card>
 
     { Platform.select({
       ios: (
